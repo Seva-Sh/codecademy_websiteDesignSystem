@@ -1,0 +1,76 @@
+header {
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Source Code Pro', monospace;
+}
+
+
+.colors, .fonts, .textStyles {
+  border: 3px double black;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Colors Section */
+
+.color1, .color2, .color3 {
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+}
+
+.color1 {
+  background-color: #2F3C7E;
+}
+
+.color2 {
+  background-color: #8C8BB0;
+}
+
+.color3 {
+  background-color: #FBEAED;
+}
+
+/* Fonts Section */
+
+.font1, .font2, .font3 {
+  display: inline-block;
+  margin: 5px;
+
+}
+
+.fonts h3 {
+  background-color: yellow;
+  display: inline-block;
+}
+
+.font1 {
+  font-family: 'Courier Prime', monospace;
+}
+
+.font2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font3 {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.textStyles h3 {
+  text-decoration: underline;
+}
+
+ul {
+  line-height: 1.5em;
+}
